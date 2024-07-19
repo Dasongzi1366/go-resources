@@ -14,11 +14,11 @@ var Libpaddle []byte
 //go:embed libpaddle_native.so
 var Libpaddle_native []byte
 
-//go:embed libyolov5.so
-var Libyolov5 []byte
+//go:embed libncnn.so
+var Libncnn []byte
 
-//go:embed libyolov5_native.so
-var Libyolov5_native []byte
+//go:embed libYoloV5Ncnn.so
+var LibYoloV5Ncnn []byte
 
 //go:embed ch_ppocr_mobile_v2.0_cls_opt.nb
 var Ch_ppocr_mobile_cls_opt []byte
