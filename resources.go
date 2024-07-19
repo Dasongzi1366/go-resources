@@ -20,9 +20,6 @@ var Libyolov5 []byte
 //go:embed libyolov5_native.so
 var Libyolov5_native []byte
 
-//go:embed libyolov5_opencv.so
-var Libyolov5_opencv []byte
-
 //go:embed ch_ppocr_mobile_v2.0_cls_opt.nb
 var Ch_ppocr_mobile_cls_opt []byte
 
